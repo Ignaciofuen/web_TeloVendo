@@ -1,0 +1,246 @@
+html{
+    font-family: 'Libertinus Sans', 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color:#dcdcdc;
+}
+
+header{
+    background-color: #778ebd;
+    color: white;
+    padding: 2rem 2rem;
+
+}
+header h1{
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Navbar como barra */
+.navbar {
+  background-color: darkslategrey !important; 
+  padding: 20px 20px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  border-radius: 0 0 20px 20px;
+}
+
+/* Marca (logo o nombre) */
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+/* Links del menú */
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #a4aa52 !important;
+  font-weight: bold;
+}
+
+/* Input búsqueda */
+.form-control {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+/* Botón búsqueda */
+.btn-outline-success {
+  color: #fff;
+  border-color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-outline-success:hover {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #000;
+}
+
+
+
+
+
+.menu{
+     text-align: center;
+
+}
+
+.container{
+    margin: 0 auto;
+  
+   
+}
+
+section article{
+    background-color: white;
+    background-image: url("img/nes.jpg");
+    background-position: left;
+    margin: 1rem 0;
+    width: 1200px;
+    height: 200px;
+
+    
+    border-radius:0.5rem;
+    padding: 0.25rem 0;
+}
+
+
+section article h2,section article p{
+    margin: 1rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: #9c9d6d;
+}
+
+
+section article:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+footer a:hover{
+    transition: color 0.3s ease;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.contenido{
+    text-align: center;
+    margin: 0 auto;
+      
+}
+
+.contenido section{
+    background-color: white;
+    margin:0 auto;
+    
+    
+    border-radius:0.5rem;
+    padding: 0.25rem 0;
+}
+
+.contenido section form{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 500px;
+    height: 600px ;
+    border-radius:0 0 20px 20px;
+    background-color: #dcdcdc;
+}
+
+section form input,section form textarea{
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius:0.5rem;
+    border: 1px solid #7f9390;
+    background-color: rgb(161, 178, 171);
+}
+
+section form button{
+    width: 35%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius:0.5rem;
+    border: none;
+    background-color: #80c5be;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .color {
+    border: 5px red outset;
+
+} */
+
+/*comentario de varias lineas
+.color {
+    color: #f00000;
+}
+*/
+
+
+
+/*comentario de varias lineas
+.color {
+    color: rgb(255, 0, 0,);
+}
+*/
+
+/*comentario de varias lineas
+
+dotted
+dashed
+solid   
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+
+*/

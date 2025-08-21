@@ -1,2 +1,1 @@
-# web_TeloVendo
-fullstak2
+# web_prototipe
